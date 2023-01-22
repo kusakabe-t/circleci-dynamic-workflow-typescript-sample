@@ -1,0 +1,16 @@
+{
+  "name": "dynamic-workflow-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "postinstall": "tsc --project tsconfig.json"
+  },
+  "dependencies": {
+    "@circleci/circleci-config-sdk": "0.12.0"
+  },
+  "devDependencies": {
+     "typescript": "4.9.4"
+  }
+}
